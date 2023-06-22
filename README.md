@@ -9,32 +9,24 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-ur]
-<br />
-<br />
 
-### Ready-to-use template for new projects using Vite, React, Typescript and Jest
-<br />
-<br />
+#### Ready-to-use template for new projects using Vite, React, Typescript and Jest
 
 <!-- ABOUT THE PROJECT -->
-## About
+### About
 
 Setting up Jest with Vite and Typescript can be tricky and time-consuming - I made this template to be able to set up my own new repos and projects quickly. I used a combination of resources to put this together, linked below - some of these resources are partially out-of-date, or needed customizing to work. The interaction between and development of these projects (Vite and Jest, etc) is constantly evolving, so refer to these links with that in mind and expect that over time, adjustments to this repo will likely be needed.
-
-<br />
 <br />
 
 <!-- GETTING STARTED -->
-## Prerequisites
+### Prerequisites
 
 Node.js version 12.2.0 or higher installed on your machine. 
 
 Yarn package manager version 1.22.0 or higher installed on your machine (you can also use npm if you prefer).
 <br />
-<br />
 
-
-## Installation
+### Installation
 
 To get a local copy up and running, follow these simple steps.
 <br />
@@ -55,10 +47,9 @@ Install packages with yarn:
    npm install
    ```
 <br />
-<br />
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+### Acknowledgments
 
 Special appreciation to Manny, who wrote [this excellent Medium article](https://codingwithmanny.medium.com/quick-jest-setup-with-vitejs-react-typescript-82f325e4323f) in 2021 showing the errors you will encounter doing this from scratch, why they occur, and how to solve them. A bit out of date now (sorry Manny!) but was still super helpful and thorough.
 
@@ -69,10 +60,9 @@ Special appreciation to Manny, who wrote [this excellent Medium article](https:/
 * [Quick Jest Setup with Vite, React, Typescript](https://codingwithmanny.medium.com/quick-jest-setup-with-vitejs-react-typescript-82f325e4323f)
 * [Considerations for fireEvent](https://testing-library.com/docs/guide-events)
 <br />
-<br />
 
 <!-- CONTRIBUTING -->
-## Contributing
+### Contributing
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star if it helped you! Thanks!
@@ -83,13 +73,11 @@ Don't forget to give the project a star if it helped you! Thanks!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 <br />
-<br />
 
 <!-- LICENSE -->
-## License
+### License
 
 Distributed under the MIT License.
-
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/sharoncraddock/vite-react-typescript-jest.svg?style=for-the-badge
