@@ -15,7 +15,7 @@
 <!-- ABOUT THE PROJECT -->
 ### About
 
-Setting up Jest with Vite and Typescript can be tricky and time-consuming - I made this template to be able to set up my own new repos and projects quickly. I used a combination of resources to put this together, linked below - some of these resources are partially out-of-date, or needed customizing to work. The interaction between and development of these projects (Vite and Jest, etc) is constantly evolving, so refer to these links with that in mind and expect that over time, adjustments to this repo will likely be needed.
+Setting up Jest with Vite and Typescript can be tricky and time-consuming - I created this template to be able to set up my own new projects quickly. I used a combination of articles and documentation to put this together, linked below - some of the info in these is partially out-of-date at this point, or needed customizing to work. The interaction between and development of these projects (Vite and Jest, etc) is constantly evolving, so refer to these links with that in mind and expect that over time, adjustments to this repo will likely be needed.
 <br />
 
 <!-- GETTING STARTED -->
@@ -23,7 +23,7 @@ Setting up Jest with Vite and Typescript can be tricky and time-consuming - I ma
 
 Node.js version 12.2.0 or higher installed on your machine. 
 
-Yarn package manager version 1.22.0 or higher installed on your machine (you can also use npm if you prefer).
+Yarn package manager version 1.22.0 or higher installed on your machine.
 <br />
 
 ### Installation
@@ -40,12 +40,6 @@ Install packages with yarn:
   ```sh
   yarn
   ```
- 
- Or, install packages with npm:
-
-   ```sh
-   npm install
-   ```
 <br />
 
 <!-- ACKNOWLEDGMENTS -->
