@@ -1,30 +1,17 @@
 import { useState } from 'react'
 import './App.css';
-import { Button, RadioButton, DatePicker, Checkbox, Input } from '@o2pluss/o2pluss-design-system';
-import AIComponent from './components/AIComponent';
+import { RadioButton } from '@o2pluss/o2pluss-design-system';
+import VoiceRecord from './components/VoiceRecord';
 
 const MockComponent = () => {
   const [name, setName] = useState<string>('');
 
   return (
     <div className="w-[100vw] h-[100vh] flex justify-center items-center">
-      {/* <Input
-        value={name}
-        onChange={(e: any) => setName(e.target.value)}
-        placeholder="이름을 입력해주세요"
-      />
-      <Button
-        onClick={() => {
-          alert(`입력한 이름: ${name}`);
-        }}
-      >
-        확인
-      </Button> */}
-      <AIComponent/>
+      <VoiceRecord/>
     </div>
   );
 };
-
 
 /**
  * commit1
