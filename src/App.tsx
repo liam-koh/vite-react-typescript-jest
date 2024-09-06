@@ -2,13 +2,16 @@ import { useState } from 'react'
 import './App.css';
 import { RadioButton } from '@o2pluss/o2pluss-design-system';
 import VoiceRecord from './components/VoiceRecord';
+import SkeletonUI from './components/SkeletonUI';
 
 const MockComponent = () => {
   const [name, setName] = useState<string>('');
 
   return (
-    <div className="w-[100vw] h-[100vh] flex justify-center items-center">
-      <VoiceRecord/>
+    <div className="w-[100vw] h-[100vh] flex flex-col justify-center items-center">
+      <p>음성녹음</p>
+      <VoiceRecord />
+      <SkeletonUI/>
     </div>
   );
 };

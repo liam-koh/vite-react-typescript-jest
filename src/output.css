@@ -1470,3 +1470,18 @@ video {
   --radio-unselected: url("data:image/svg+xml,%3Csvg width='25' height='24' viewBox='0 0 25 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='State=Unselected, Type=Default'%3E%3Cpath id='Vector' d='M12.75 2C7.23 2 2.75 6.48 2.75 12C2.75 17.52 7.23 22 12.75 22C18.27 22 22.75 17.52 22.75 12C22.75 6.48 18.27 2 12.75 2ZM12.75 20C8.33 20 4.75 16.42 4.75 12C4.75 7.58 8.33 4 12.75 4C17.17 4 20.75 7.58 20.75 12C20.75 16.42 17.17 20 12.75 20Z' fill='%23E2E2E2'/%3E%3C/g%3E%3C/svg%3E%0A");
   --radio-disabled: url("data:image/svg+xml,%3Csvg width='21' height='20' viewBox='0 0 21 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle id='Ellipse 33' cx='10.75' cy='10' r='10' fill='%23E2E2E2'/%3E%3C/svg%3E%0A")
 }
+
+
+/* SkeletonSquare.css */
+.skeleton-square {
+  background-color: #eee;
+  background: linear-gradient(90deg, #ececec 8%, #f5f5f5 18%, #ececec 33%);
+  background-size: 200% 100%;
+  animation: 1.7s skeleton-wave linear infinite;
+}
+
+@keyframes skeleton-wave{
+  to {
+      background-position-x: -200%;
+    }
+  }
