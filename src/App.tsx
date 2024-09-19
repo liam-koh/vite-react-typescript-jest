@@ -3,6 +3,8 @@ import './App.css';
 import { RadioButton } from '@o2pluss/o2pluss-design-system';
 import VoiceRecord from './components/VoiceRecord';
 import SkeletonUI from './components/SkeletonUI';
+import SkeletonList from './components/SkeletonList';
+import { Button } from '@ods/index.js';
 
 const MockComponent = () => {
   const [name, setName] = useState<string>('');
@@ -10,8 +12,9 @@ const MockComponent = () => {
   return (
     <div className="w-[100vw] h-[100vh] flex flex-col justify-center items-center">
       <p>음성녹음</p>
+      <Button size="md">아하하</Button>
       <VoiceRecord />
-      <SkeletonUI/>
+      <SkeletonList />
     </div>
   );
 };

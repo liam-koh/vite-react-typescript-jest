@@ -1800,10 +1800,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@o2pluss/o2pluss-design-system@^2.0.18":
-  version "2.0.18"
-  resolved "https://npm.pkg.github.com/download/@o2pluss/o2pluss-design-system/2.0.18/d97ad260c7ac2e7642240cb8053632d45d0fd3b9#d97ad260c7ac2e7642240cb8053632d45d0fd3b9"
-  integrity sha512-EqpSPRWXNqFU8p8nXD0Ku4MbNasMq/57d4MCDjE82Nj6+X1K2ohTZfXYLmSu880yGbu8/4CrPsnTW3CcrWgm0w==
+"@o2pluss/o2pluss-design-system@^2.0.22":
+  version "2.0.22"
+  resolved "https://npm.pkg.github.com/download/@o2pluss/o2pluss-design-system/2.0.22/501594de631ea95cce584ee0642538a0a454a77c#501594de631ea95cce584ee0642538a0a454a77c"
+  integrity sha512-KCqbkae6Rgt4lpWDajMrAZwme8pSNtr7AiEWOgDiInMbWUNjeI8eGjkrGlJWAbPZ4tdoOsKaY6D4nSt8L2C7cQ==
   dependencies:
     classnames "^2.5.1"
     date-fns "^3.6.0"
